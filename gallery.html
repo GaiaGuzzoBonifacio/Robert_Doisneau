@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Robert Doisneau Photography - Gallery</title>
+    <script src="https://kit.fontawesome.com/bb4ac6d4d8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-dark">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item linea">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item linea">
+                    <a class="nav-link" href="biography.html">Biography</a>
+                </li>
+                <li class="nav-item linea">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item linea">
+                    <a class="nav-link" href="bibliography.html">Bibliography</a>
+                </li>
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/signature.png" alt="Logo" style="width:200px">
+                </a>
+                <p>
+                    © Copyright
+                    <a href="#"> Smile Design </a>
+                    2021
+                </p>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <div class="card-columns">
+            
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/amour_et_barbeles_1944.jpg">
+                <div class="overlay" >
+                    <a class="icon" href="#" onclick="openmodal('imgs/amour_et_barbeles_1944.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+                
+                <div class="card-body">
+                    <h4 class="card-title">Amour et Barbeles</h4>
+                    <h4 class="card-title">1944</h4>
+                </div>
+            </div>
+            
+            
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/le_manege_de_monsieur_barre_1955.jpg">
+                <div class="overlay">
+                    <a class="icon" href="#" onclick="openmodal('imgs/le_manège_de_monsieur_barré_1955.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Le manege de monsieur Barre</h4>
+                    <h4 class="card-title">1955</h4>
+                </div>
+            </div>
+            
+            
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/le_petit_balcon_1953.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/le_petit_balcon_1953.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Le petit balcon</h4>
+                    <h4 class="card-title">1953</h4>
+                </div>
+            </div>
+            
+            
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/annie_fargue_1958.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/robert-doisneau-annie-Fargue-de-profil1958.jpeg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Annie Fargue de profil</h4>
+                    <h4 class="card-title">1958</h4>
+                </div>
+            </div>
+            
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/barricade_de_la_rue_1944.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/barricade_de_la_rue_de_la_huchette_1944.jpeg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Barricade rue de la Hucette</h4>
+                    <h4 class="card-title">1944</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/bassin_de_la_villette_1957.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/robert-doisneau-bassin-de-la-villette-1957.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Bassin de la villette</h4>
+                    <h4 class="card-title">1957</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/bolides_1946.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/bolides_1946.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Bolides</h4>
+                    <h4 class="card-title">1946</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/catherine_verneuil_1936.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/robert-doisneau-catherine-verneuil-1936.jpeg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Catherine Verneuil</h4>
+                    <h4 class="card-title">1936</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/defile_de_soldats_allemands_1943.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/Défilé_de_soldats allemands_1943.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Defile de soldats allemands</h4>
+                    <h4 class="card-title">1943</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/donio_dresseur_de_chien_1946.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/doisneau-2303-donio-dresseur-de-chiens-1946.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Donio dresseur de chien</h4>
+                    <h4 class="card-title">1946</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/information_scolaire_1956.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/doisneau-l_information-scolaire1956.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Information scolaire</h4>
+                    <h4 class="card-title">1956</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/l'enfer_1952.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/lenfer_1952.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">L'enfer</h4>
+                    <h4 class="card-title">1952</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/la_premiere_matresse_1933.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/La_Premiere_Maitresse_1933.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">La premiere maitresse</h4>
+                    <h4 class="card-title">1933</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/le_baise.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/le_basier_a_lhotel_de_ville.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Le baiser de l'Hôtel de Ville</h4>
+                    <h4 class="card-title">1950</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/le_cadran_scolaire_paris_1956.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/le-cadran-scolaire-paris-1956-by-robert-doisneau.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Le cadran scolaire</h4>
+                    <h4 class="card-title">1956</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/la_passerelle_a_vapeur_1957.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/robert-doisneau-la-passerelle-a-vapeur-1957.jpeg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Le passerelle à vapeur</h4>
+                    <h4 class="card-title">1957</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/le_regard_oblique_1948.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/le-regard-oblique-boutique-de-romi-1948.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Le regard oblique</h4>
+                    <h4 class="card-title">1948</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/les_chiens_1953.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/les_chiens_de_la_chapelle_1953.png')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Les chiens</h4>
+                    <h4 class="card-title">1953</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/les_glaneurs_de_charbon_1945.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/les_glaneurs_de_charbon_1945.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Les glaneurs de charbon</h4>
+                    <h4 class="card-title">1945</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/les_pains_de_picasso_1952.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/les-pains-de-picasso-vallauris-1952-jpg.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Les pains de Picasso</h4>
+                    <h4 class="card-title">1952</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/los_mandiles_de_rivoli_1978.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/Los-mandiles-de-Rìvoli-1978.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Les tabliers de la rue Rivoli</h4>
+                    <h4 class="card-title">1978</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/place_saint_michel_1944.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/place_saint_michel_1944.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Place Saint Michel</h4>
+                    <h4 class="card-title">1944</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/pluie_dete_1981.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/robert-doisneau-pluie-dete-1981.jpg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Pluie d'été</h4>
+                    <h4 class="card-title">1981</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/les_coffeuses_au_soleil.jpg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/robert-doisneau-les-coiffeuses-au-soleil.jpeg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+
+                <div class="card-body">
+                    <h4 class="card-title">Les coiffeuses au soleil</h4>
+                    <h4 class="card-title">1966</h4>
+                </div>
+            </div>
+
+            <div class="card" style="width:350px">
+                <img class="card-img-top" src="cards_imgs/robert-doisneau-le-violoncelle-sous-la-pluie.jpeg">
+                <div class="overlay">
+                    <a href="#" class="icon" onclick="openmodal('imgs/robert-doisneau-le-violoncelle-sous-la-pluie.jpeg')">
+                        <i class="fas fa-camera"></i>
+                    </a>
+                </div>
+                
+                <div class="card-body">
+                    <h4 class="card-title">Le violoncelle sous la pluie</h4>
+                    <h4 class="card-title">1957</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("test");
+        var modalImg = document.getElementById("img01");
+        function openmodal(myImg) {
+          modal.style.display = "block";
+          modalImg.src = myImg;
+          
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
