@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Voltaire', sans-serif;
+    overflow: hidden;
+    position: fixed;
+} 
+
+.container {
+    z-index: 10000;
+    width: 216px;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    background-color: #171717;
+    display: inline-block;
+    position: fixed;
+}
+
+.navbar {
+    z-index: 100;
+    padding-top: 35px;
+    position: absolute;
+    height: auto;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.nav-item{
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    color: rgb(180, 180, 180);
+    font-size: 13px;
+}
+
+p:before {
+    content: "";
+    display: block;
+    width: 216px;
+    height: 2px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+div {
+    display: block;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav-link {
+    margin-left: 115px;
+}
+
+.linea:after {
+    content: "";
+    display: block;
+    width: 216px;
+    height: 2px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 5px;
+    
+}
+
+.mycarousel {
+    display: inline-block;
+    position: relative;
+    box-sizing: inherit;
+    height: 100%;
+    width: 100%;
+    margin-left: 216px;
+    
+    
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
