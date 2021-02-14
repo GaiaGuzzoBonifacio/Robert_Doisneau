@@ -3,6 +3,12 @@ html,body {
     width: 100%;
     background-color:  rgb(54, 52, 52);
 }
+
+.title {
+    font-size: 50px;
+    color: rgb(180,180,180);
+}
+
 .content {
     margin-left: 270px;    
 }

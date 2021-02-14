@@ -1,0 +1,56 @@
+html,body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    background-color:  rgb(54, 52, 52);
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(180,180,180);
+}
+
+.content {
+    margin-left: 270px; 
+     
+}
+
+.description {
+    width: 500px;
+    color: #eadfcf;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 70px;
+    
+}
+
+.description-right {
+    width: 500px;
+    color: #eadfcf;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 70px;
+    
+}
+
+.description-right:after {
+    content: "";
+    display: block;
+    width: 2000px;
+    height: 2px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 2px;
+    margin-top: 2px;
+}
+
+.picture {
+    
+    margin-right: 50px;
+    border: 10px double white;
+}
+ .d-flex {
+     padding-bottom: 20px;
+ }
+  
+ 
+                
