@@ -1,0 +1,56 @@
+html,body {
+    overflow-y: auto;
+    width: 100%;
+    background-color:  rgb(54, 52, 52);
+}
+
+.bookshelf {
+    margin-left: 216px;
+    
+}
+
+.d-flex {
+    padding: 20px;
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(180,180,180);
+}
+
+.description {
+    width: 700px;
+    background-color: #eadfcf;
+    color: #594c45;
+    text-align: left;
+    
+}
+
+.picture {
+    border: 10px solid #eae6e2;
+    background-color: #baada6;
+}
+
+.inset {
+    padding: 10px;
+    border: 10px double #eae6e2;
+}
+
+button {
+    background-color: #594c45;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    align-self: end;
+    right: 0;
+}
+
+button:hover {
+    background-color: #594c458c;
+    color: white;
+}

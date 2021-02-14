@@ -39,12 +39,12 @@ body {
     margin: 0px;
 }
 
-p {
+section {
     color: rgb(180, 180, 180);
     font-size: 13px;
 }
 
-p:before {
+section:before {
     content: "";
     display: block;
     width: 216px;
